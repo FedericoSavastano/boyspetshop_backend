@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1741395907346" clover="3.2.0">
+  <project timestamp="1741395907346" name="All files">
+    <metrics statements="100" coveredstatements="98" conditionals="7" coveredconditionals="6" methods="14" coveredmethods="14" elements="121" coveredelements="118" complexity="0" loc="100" ncloc="100" packages="6" files="8" classes="8"/>
+    <package name="src">
+      <metrics statements="38" coveredstatements="36" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <file name="router.ts" path="C:\Mio\PORTFOLIO\boyspetshop\server\src\router.ts">
+        <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="69" count="2" type="stmt"/>
+        <line num="99" count="2" type="stmt"/>
+        <line num="146" count="2" type="stmt"/>
+        <line num="155" count="7" type="stmt"/>
+        <line num="163" count="7" type="stmt"/>
+        <line num="169" count="7" type="stmt"/>
+        <line num="229" count="2" type="stmt"/>
+        <line num="239" count="11" type="stmt"/>
+        <line num="247" count="11" type="stmt"/>
+        <line num="253" count="11" type="stmt"/>
+        <line num="293" count="2" type="stmt"/>
+        <line num="329" count="2" type="stmt"/>
+        <line num="336" count="2" type="stmt"/>
+      </file>
+      <file name="server.ts" path="C:\Mio\PORTFOLIO\boyspetshop\server\src\server.ts">
+        <metrics statements="19" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.config">
+      <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
+      <file name="db.ts" path="C:\Mio\PORTFOLIO\boyspetshop\server\src\config\db.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="5" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+      </file>
+      <file name="swagger.ts" path="C:\Mio\PORTFOLIO\boyspetshop\server\src\config\swagger.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.handlers">
+      <metrics statements="36" coveredstatements="36" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
+      <file name="petshopProduct.ts" path="C:\Mio\PORTFOLIO\boyspetshop\server\src\handlers\petshopProduct.ts">
+        <metrics statements="36" coveredstatements="36" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="18" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="38" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="55" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="67" count="2" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="69" count="2" type="stmt"/>
+        <line num="71" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="79" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.middleware">
+      <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="index.ts" path="C:\Mio\PORTFOLIO\boyspetshop\server\src\middleware\index.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="9" count="27" type="stmt"/>
+        <line num="11" count="27" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="18" type="stmt"/>
+        <line num="15" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.models">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="PetshopProduct.model.ts" path="C:\Mio\PORTFOLIO\boyspetshop\server\src\models\PetshopProduct.model.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Mio\PORTFOLIO\boyspetshop\server\src\utils\index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "lib": ["ESNext"], //version of JS to compile to
+        "target": "ESNext", //allows the use of "new" command
+        "moduleResolution": "NodeNext",
+        "module": "NodeNext",
+        "strict": false, //allows the use of type "any" or not
+        "sourceMap": true, //generates a .map file with info
+        "esModuleInterop": true, //allows importing commonjs libraries
+        "declaration": true, //generates .d.ts files
+        "experimentalDecorators": true, //allows the use of decorators @
+        "emitDecoratorMetadata": true //allows the use of decorators @
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["src/**/*.test.ts"]
+}
