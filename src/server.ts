@@ -29,7 +29,6 @@ const server = express();
 //Allow frontend connection
 //Set CORS options configurations
 //include it in CORS middleware
-//DESCOMENTAR DESPUES, PORQUE ACA NO VA A ANDAR CON EL POSTMAN
 const corsOptions: CorsOptions = {
     origin: function (origin, callback) {
         if (
@@ -43,7 +42,9 @@ const corsOptions: CorsOptions = {
     },
 };
 
-server.use(cors(corsOptions));
+//server.use(cors(corsOptions));
+
+server.use(cors());
 
 //Helps reading form information
 server.use(express.json());
