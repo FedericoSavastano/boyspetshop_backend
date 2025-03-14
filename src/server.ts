@@ -32,9 +32,10 @@ const server = express();
 //DESCOMENTAR DESPUES, PORQUE ACA NO VA A ANDAR CON EL POSTMAN
 const corsOptions: CorsOptions = {
     origin: function (origin, callback) {
-        if (origin === process.env.FRONTEND_URL) {
-            callback(null, true);
-        } else if (origin.includes('docs')) {
+        if (
+            origin === process.env.FRONTEND_URL ||
+            origin === process.env.DOCS_URL
+        ) {
             callback(null, true);
         } else {
             callback(new Error('CORS error'));
